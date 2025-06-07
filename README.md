@@ -53,10 +53,10 @@ python3 audit/audit.py --kubeconfig ~/.kube/mycluster-config
 ---
 
 ## Sample Output
-[!] ClusterRole 'admin-role' uses '*': overly permissive.
-[!] Pod 'nginx' in ns 'default' runs as privileged.
-[!] Service 'frontend' in ns 'dev' is type NodePort.
-[!] Container in pod 'worker' lacks CPU/memory limits.
+- ClusterRole 'admin-role' uses '*': overly permissive.
+- Pod 'nginx' in ns 'default' runs as privileged.
+- Service 'frontend' in ns 'dev' is type NodePort.
+- Container in pod 'worker' lacks CPU/memory limits.
 
 ---
 
